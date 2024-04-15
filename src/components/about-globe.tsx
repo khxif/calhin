@@ -393,7 +393,7 @@ const sampleArcs = [
   },
 ];
 
-export default function AboutGlobe() {
+export function AboutGlobe() {
   return (
     <div className="flex flex-row items-center justify-center py-20 h-screen md:h-auto bg-black relative top-14 w-full">
       <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
@@ -411,10 +411,10 @@ export default function AboutGlobe() {
           }}
           className="div"
         >
-          <h2 className="text-center text-xl md:text-4xl font-bold text-white">
+          <h2 className="text-center text-xl md:text-4xl font-semibold text-white">
             Calhin sells products Worldwide
           </h2>
-          <p className="text-center text-base md:text-lg font-normal text-neutral-200 max-w-3xl mt-4 mx-auto">
+          <p className="text-center text-sm md:text-base font-normal text-neutral-400 max-w-3xl mt-4 mx-auto">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut,
             voluptatibus quos saepe, deserunt neque voluptatem repudiandae
           </p>
