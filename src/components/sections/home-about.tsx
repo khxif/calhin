@@ -5,7 +5,7 @@ import React from 'react'
 export  function HomeAbout() {
   return (
     <section
-    className="py-20 lg:mt-16 flex gap-10 lg:gap-20 max-w-7xl mx-auto w-full
+    className="py-10 lg:py-20 lg:mt-16 flex gap-10 lg:gap-20 max-w-7xl mx-auto w-full
    flex-col-reverse lg:flex-row px-4 sm:px-6 lg:px-0"
   >
     <div className="flex-1 p-6 items-center justify-between">
@@ -20,11 +20,11 @@ export  function HomeAbout() {
 
     <div className="flex-1 w-full flex flex-col justify-center space-y-6">
       <h1
-        className="text-3xl font-medium text-center relative before:absolute before:rounded-full max-w-fit
+        className="text-2xl md:text-3xl font-medium text-center relative before:absolute before:rounded-full max-w-fit
      before:w-3/5 before:h-1 before:bg-red-600 before:bottom-0 before:left-0 py-2.5 space-x-1.5"
       >
-        <span className="text-red-600">Know about our</span>
-        <span>company!</span>
+        <span className="text-red-600">Who are</span>
+        <span>we?</span>
       </h1>
 
       <div className="space-y-8 flex flex-col justify-center">
@@ -37,7 +37,7 @@ export  function HomeAbout() {
         </p>
 
         <Link href="/about">
-          <p className="font-medium pb-2 pr-2 text-lg border-b border-red-600 max-w-fit">
+          <p className="font-medium pb-2 pr-2 text-base md:text-lg border-b border-red-600 max-w-fit">
             Have a Look -{">"}
           </p>
         </Link>

@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function WhatWeDo() {
   return (
-    <section className="py-28 lg:mt-16 px-4 sm:px-6 lg:px-0 max-w-7xl mx-auto w-full space-y-5">
+    <section className="py-10 lg:py-28 lg:mt-16 px-4 sm:px-6 lg:px-0 max-w-7xl mx-auto w-full space-y-5">
       <h1
-        className="text-3xl font-medium relative before:absolute before:rounded-full max-w-fit
+        className="text-2xl md:text-3xl font-medium relative before:absolute before:rounded-full max-w-fit
    before:w-3/5 before:h-1 before:bg-red-600 before:bottom-0 before:left-0 py-2.5 space-x-1.5"
       >
         <span className="text-red-600">What we</span>

@@ -18,6 +18,27 @@
     transform: translateX(0%)
   }
 
+  .link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+  }
+  .link::after {
+    content: "";
+    position: absolute;
+    height: 0.25rem;
+    left: 0;
+    width: 0;
+    bottom: 0;
+  }
+  
+  .link:hover::after {
+    width: 100%;
+    transform: scale(1);
+    transition: 0.2s width ease-in-out;
+  }
+
   @layer base {
     :root {
       --background: 0 0% 100%;
