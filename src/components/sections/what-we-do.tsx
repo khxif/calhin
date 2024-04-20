@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function WhatWeDo() {
   return (
-    <section className="py-10 lg:py-28 lg:mt-16 px-4 sm:px-6 lg:px-0 max-w-7xl mx-auto w-full space-y-5">
+    <section className="py-10 md:py-28 md:mt-16 px-4 sm:px-6 md:px-0 max-w-7xl mx-auto w-full space-y-5">
       <h1
         className="text-2xl md:text-3xl font-medium relative before:absolute before:rounded-full max-w-fit
    before:w-3/5 before:h-1 before:bg-red-600 before:bottom-0 before:left-0 py-2.5 space-x-1.5"
@@ -13,8 +13,8 @@ export default function WhatWeDo() {
       </h1>
 
       <section className="space-y-20">
-        <div className=" flex gap-8 lg:gap-20 flex-col lg:flex-row ">
-          <div className="flex-1 lg:p-6 flex items-center justify-between max-w-fit">
+        <div className=" flex gap-8 md:gap-20 flex-col md:flex-row ">
+          <div className="flex-1 md:p-6 flex items-center justify-between max-w-fit">
             <Image
               src="/website.png"
               alt="website"
@@ -35,8 +35,8 @@ export default function WhatWeDo() {
           </div>
         </div>
 
-        <div className=" flex gap-8 lg:gap-20 flex-col lg:flex-row-reverse ">
-          <div className="flex-1 lg:p-6 flex items-center justify-between max-w-fit">
+        <div className=" flex gap-8 md:gap-20 flex-col md:flex-row-reverse ">
+          <div className="flex-1 md:p-6 flex items-center justify-between max-w-fit">
             <Image
               src="/app.png"
               alt="app"

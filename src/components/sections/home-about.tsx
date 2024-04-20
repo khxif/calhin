@@ -5,8 +5,8 @@ import React from 'react'
 export  function HomeAbout() {
   return (
     <section
-    className="py-10 lg:py-20 lg:mt-16 flex gap-10 lg:gap-20 max-w-7xl mx-auto w-full
-   flex-col-reverse lg:flex-row px-4 sm:px-6 lg:px-0"
+    className="py-10 md:py-20 md:mt-16 flex gap-10 md:gap-20 max-w-7xl mx-auto w-full
+   flex-col-reverse md:flex-row px-4 sm:px-6 md:px-0"
   >
     <div className="flex-1 p-6 items-center justify-between">
       <Image
@@ -37,7 +37,7 @@ export  function HomeAbout() {
         </p>
 
         <Link href="/about">
-          <p className="font-medium pb-2 pr-2 text-base md:text-lg border-b border-red-600 max-w-fit">
+          <p className="font-medium pb-2 pr-2 text-base md:text-md border-b border-red-600 max-w-fit">
             Have a Look -{">"}
           </p>
         </Link>

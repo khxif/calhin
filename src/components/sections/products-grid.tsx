@@ -13,7 +13,7 @@ import { Skeleton } from '../skeleton';
 
 export default function ProductsGrid() {
   return (
-    <BentoGrid className="max-w-4xl mx-auto py-10 px-5 lg:px-0">
+    <BentoGrid className="max-w-4xl mx-auto py-10 px-5 md:px-0">
         {items.map((item, i) => (
           <BentoGridItem
             key={i}
