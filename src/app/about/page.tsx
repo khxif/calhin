@@ -4,7 +4,8 @@ import WhatWeDo from "@/components/sections/what-we-do";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Calhin"
+  title: "Calhin",
+  description:"Find out more about us",
 };
 
 export default function AboutPage() {

@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import IconCloud from "../ui/icon-cloud.tsx";
+import { slugs } from "../../utils/slugs";
 
 export default function WhatWeDo() {
   return (
@@ -15,13 +17,7 @@ export default function WhatWeDo() {
       <section className="space-y-20">
         <div className=" flex gap-8 md:gap-20 flex-col md:flex-row ">
           <div className="flex-1 md:p-6 flex items-center justify-between max-w-fit">
-            <Image
-              src="/website.png"
-              alt="website"
-              width={500}
-              height={500}
-              className="object-cover bg-transparent w-full h-full"
-            />
+            <IconCloud iconSlugs={slugs} />
           </div>
 
           <div className="flex-1 w-full flex flex-col justify-center space-y-6">
